@@ -3,6 +3,7 @@
   <head>
     <title>Ufocina Manicômio</title>
     <link href='CSS/estilo.css' rel='stylesheet'>
+    <script type="text/javascript" src="javascript.js"></script>
 
   </head>
 
@@ -91,6 +92,11 @@
   <div>
     <img src="Imagens\email.png" alt="email">
     <p><a href="mailto: email@contato.com">email@contato.com</a></p>
+    
+    <textarea cols="45" id="campo" rows="5" onkeyup="
+    contarCaracteres(this.value,140,'sprestante')"></textarea><br />
+    <span id="sprestante" style="font-family:Georgia;"></span>
+    
   </div>
 </section>
 <footer>
